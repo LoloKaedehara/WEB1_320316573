@@ -1,0 +1,10 @@
+body{
+    background-color: bisque;
+}
+@font-face {
+    font-family: FuenteEnzo;
+    src: url(./recursos/fuentes/Chloe\ Mate.otf);
+}
+.texto{
+    font-family: FuenteEnzo;
+}
