@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>William</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="Título">
+        <h3>Registro en mi BD</h3>
+    </header>
+    <div class=" Formulario ">
+        <form action="" method="post">
+            <hr>
+            <div>
+                <label for=""></label>
+                <input type="text" name=" nombre_usuario" required maxlength="100" placeholder="Ingresa el nombre, baboso!">
+                <br><br>
+            </div>
+            <div>
+                <label for="Carrera"> Carrera Academica</label>
+                <input type="text" name="Carrera" placeholder="Ingresa la carrera, baboso!" required>
+                <datalist id="lista-isntitución">
+                    <option value="FES ARAGÓN"> Facultad de Estudios Superiores Aragón</option>
+                    <option value="FES CUAUTITLÁN"> Facultad de Estudios Superiores Cuautitlán</option>
+                    <option value="FES IZTACALA"> Facultad de Estudios Superiores Iztacala</option>
+                    <option value="FES ACATLAN"> Facultad de Estudios Superiores Acatlan</option>
+                </datalist>
+                <br><br>
+            </div>
+            <div>
+                <label for="no_cuenta">Numero de Cuenta</label>
+                <input type="number" name="no_cuenta" maxlength="9" required>
+                <br><br>
+            </div>
+            <div>
+            <label for="dirección">Ingresar tu Direccion:</label>
+            <input type="text" name="dirección" maxlength="255" readonly placeholder="Ingresa tu dirección, baboso!">
+            <br><br>
+            </div>
+            <div>
+                <label for="telefono">Numero</label>
+                <input type="number" name="telefono" maxlength="10" required>
+                <br><br>
+            </div>
+            <div>
+                <label for="e-mail">Ingresa tu e-mail</label>
+                <input type="text" name="e-mail" maxlength="50" readonly placeholder="Ingresa tu e-mail, baboso!">
+            </div>
+            <div>
+                <label for="password">Ingresa tu contraseña</label>
+                <input type="text" name="password" maxlength="100" readonly placeholder="Ingresa tu contraseña, baboso!">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
